@@ -1,0 +1,38 @@
+.footer {
+    text-align: start;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+ img {
+    margin-top: 25px;
+    width: 80px;
+}
+
+.bottom-container {
+    background-color: #002f34;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.other span {
+    word-spacing:1em;
+}
+
+.footer .list-items {
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1.7rem;
+}
+
+.footer .title {
+    font-size: 18px;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+.logos .playstore {
+    margin-top: 2rem;
+}

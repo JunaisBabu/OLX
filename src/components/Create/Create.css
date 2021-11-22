@@ -1,0 +1,18 @@
+.create-product {
+    border: 3px solid #002f34;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+button {
+    background-color: #002f34;
+    color: #fff;
+    margin-top: 2em;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.create-product img {
+    width: 100px;
+}

@@ -37,7 +37,7 @@ function View() {
             <Grid className="details">
                 <Grid className="productDetails" >
                 <Grid >
-                <Typography variant='h3' >Product Details</Typography>
+                <Typography className='title' variant='h3' >Product Details</Typography>
                 <Typography className='product-price' > &#x20B9; {postDetails.price} </Typography>
                 <Typography className='product-name' >{postDetails.name}</Typography>
                 <Typography className='product-category' >{postDetails.category}</Typography>
@@ -46,7 +46,7 @@ function View() {
                 <Grid  className="sellerDetails">
                 { userDetails && 
                 <Grid  >
-                <Typography variant='h3' >Seller Details</Typography>
+                <Typography className='title' variant='h3' >Seller Details</Typography>
                 <Typography className='user-name' >{userDetails.username}</Typography>
                 <Typography className='user-phone' >{userDetails.phone}</Typography>
             </Grid>

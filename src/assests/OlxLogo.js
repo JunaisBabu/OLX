@@ -1,8 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default  function OlxLogo() {
+  const navigate = useNavigate();
     return(  
-          <svg
+          <svg onClick={() => navigate('/')}
         width="48px"
         height="48px"
         viewBox="0 0 1024 1024"

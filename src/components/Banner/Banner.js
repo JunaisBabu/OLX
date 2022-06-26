@@ -1,7 +1,7 @@
 import { Container, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import Stack from '@mui/material/Stack';
-import './Banner.css'
+import './Banner.css';
 
 function Banner() {
   return (

@@ -1,18 +1,22 @@
+.language,
+.olx-logo {
+  cursor: pointer;
+}
+
 .loginBtn {
-    cursor: pointer;
-    border-radius: 10px;
-    color: #002f34;
-    border-color: #002f34;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #002f34;
+  border-color: #002f34;
 }
 
 .loginBtn:hover {
-    background-color: #006064;
-    color: #002f34;
-    
-    /* border: 3px solid #1976d2; */
+  background-color: #006064;
+  color: #002f34;
+
+  /* border: 3px solid #1976d2; */
 }
 
 .sellBtn:hover {
-    background: linear-gradient(to left bottom, #FFEB3B, #00E5FF )
+  background: linear-gradient(to left bottom, #ffeb3b, #00e5ff);
 }
-

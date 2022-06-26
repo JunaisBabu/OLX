@@ -36,8 +36,8 @@ export default function Posts() {
   return (
       <Container container className='main-container'  maxWidth='lg'>
         <Grid  className='based' justifyContent='space-between'>
-        <Typography variant='h5' >Based on your last search</Typography>
-         <Typography sx={{textDecoration:'underline'}}>View more</Typography>
+        <Typography className='based-on-title' variant='h5' >Based on your last search</Typography>
+         <Typography className='view-more' sx={{textDecoration:'underline'}}>View more</Typography>
         </Grid>
          
         <Grid className='rowPost'>

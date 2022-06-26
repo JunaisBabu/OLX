@@ -1,23 +1,26 @@
 .responsive {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 100%;
-    height: 20em;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%;
+  height: 20em;
+}
 
-  .suggestions {
-      margin-top: 5em;
-  }
-  .categories {
-      font-weight: bolder;
-  }
-  
-  .main {
-        text-align: center;
-  }
- .main .categories .columns  {
-        text-decoration: 1px solid #002f34;
-        cursor: pointer;
-  }
+.suggestions {
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+.categories {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.main {
+  text-align: center;
+}
+
+.columns:hover {
+  font-weight: 500;
+  cursor: pointer;
+}

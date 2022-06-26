@@ -142,3 +142,13 @@ img {
     color: #000;
     font-weight: 600;
 }
+
+
+@media screen and (max-width: 450px) {
+    .based .based-on-title {
+        font-size: 16px;
+    }
+    .based .view-more {
+        font-size: 14px;
+    }
+}

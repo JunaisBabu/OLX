@@ -83,7 +83,7 @@ export default function LogIn() {
               variant="contained"
               sx={{ mt: 3, mb: 2,background: 'teal' }}
             >
-              Sign In
+              Log In
             </Button>
             <Grid  container>
              

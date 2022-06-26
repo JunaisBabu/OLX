@@ -1,7 +1,6 @@
 .viewParentDiv {
     margin-top: 7em;
     display: flex;
-   
   }
   .viewParentDiv .imageShow {
     padding: 30px;
@@ -14,7 +13,6 @@
 
   .productDetails {
       margin: 2em;
-
   }
   .sellerDetails {
     margin: 2em;
@@ -44,4 +42,92 @@
   .sellerDetails .user-phone {
     font-size: 1.4em;
     font-weight: 400;
+  }
+
+
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    .viewParentDiv {
+      flex-direction: column;
+    }
+
+    .viewParentDiv .imageShow img {
+      width: 90vw;
+      height: auto;
+    }
+
+    .details{
+      margin: 0 auto;
+      width: 50%;
+  }
+
+    .details .title {
+      font-size: 2em;
+      /* white-space: nowrap; */
+    }
+
+    .details .product-price {
+      font-size: 1.5em;
+      font-weight: 800;
+    }
+
+  }
+
+  @media screen and (min-width: 501px) and (max-width: 750px) {
+    .viewParentDiv {
+      flex-direction: column;
+    }
+
+    .viewParentDiv .imageShow img {
+      width: 90vw;
+      height: auto;
+    }
+
+
+    .details{
+      margin: 0 auto;
+      width: 50%;
+  }
+
+    .details .title {
+      font-size: 2em;
+      /* white-space: nowrap; */
+    }
+
+    .details .product-price {
+      font-size: 2.3em;
+      font-weight: 800;
+    }
+
+
+  }
+
+
+  @media screen and (min-width: 751px) and (max-width: 1200px) {
+
+    .viewParentDiv {
+      align-items: center;
+    }
+
+    .viewParentDiv .imageShow img {
+      width: 60vw;
+      height: auto;
+    }
+
+
+    .details{
+      /* margin: 0 auto; */
+      width: 80%;
+  }
+
+    .details .title {
+      font-size: 2.2em;
+      /* white-space: nowrap; */
+    }
+
+    .details .product-price {
+      font-size: 2.5em;
+      font-weight: 800;
+    }
+
+
   }
